@@ -119,7 +119,7 @@ else
   call gruvbox_material#highlight('DiffText', s:palette.blue, s:palette.bg0, 'reverse')
 endif
 call gruvbox_material#highlight('Directory', s:palette.green, s:palette.none)
-call gruvbox_material#highlight('ErrorMsg', s:palette.red, s:palette.none, 'bold,underline')
+call gruvbox_material#highlight('ErrorMsg', s:palette.red, s:palette.none, 'bold')
 if s:configuration.ui_contrast ==# 'low'
   call gruvbox_material#highlight('LineNr', s:palette.bg5, s:palette.none)
   if &diff
